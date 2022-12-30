@@ -97,7 +97,7 @@ class Cart extends Component {
           </div>
           <div className="footer-list-cart">
             <span>
-              TOTAL GERAL R$ {totalCart(book[0].price, amount[book[0].id])}
+              TOTAL R$ {totalCart(book[0].price, amount[book[0].id])}
             </span>
           </div>
         </div>
