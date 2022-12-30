@@ -1,0 +1,56 @@
+.home-header {
+  color: rgb(9, 9, 9);
+  padding: 20px 0 20px 0;
+  background-color: rgb(189, 234, 243);
+  width: 100%;
+}
+
+.home-menu {
+  display: flex;
+  align-content: space-between;
+}
+.home-menu__logo {
+  width: 125px;
+}
+
+.link-cart {
+  color: rgb(4, 75, 132);
+  font-size: 14pt;
+  text-decoration: none;
+}
+.list-books {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.list-row {
+  color: #000;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #fff;
+}
+.list-button {
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  font-family: arial "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  border: none;
+  background-color: rgb(8, 110, 189);
+  border-radius: 50px;
+  box-shadow: 3px 3px 3px rgba(33, 30, 30, 0.5);
+}
+
+.cart-counter {
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(69, 14, 121);
+  padding: 6px;
+  font-size: 15px;
+  height: 30%;
+}
